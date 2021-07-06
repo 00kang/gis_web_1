@@ -1,3 +1,7 @@
+.pragmatic_header {
+    text-align: center;
+}
+
 .pragmatic_header_logo {
     margin: 2rem 0;
     font-family: 'Otomanopee One', sans-serif;
@@ -7,6 +11,10 @@
     margin-bottom: 2rem;
 }
 
+.pragmatic_footer {
+    text-align: center;
+}
 .pragmatic_footer_button {
-    font-size: .8rem; margin: 1.5rem;
+    font-size: .8rem;
+    margin: 1.5rem;
 }
