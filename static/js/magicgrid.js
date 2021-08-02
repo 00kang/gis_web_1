@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * @author emmanuelolaojo
  * @since 11/11/18
