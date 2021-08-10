@@ -11,4 +11,4 @@ class Comment(models.Model):
     writer = models.ForeignKey(User, on_delete=models.SET_NULL,
                                related_name='comment', null=True)
     content = models.TextField(null=False)
-    created_at =models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True)
