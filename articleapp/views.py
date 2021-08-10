@@ -30,7 +30,7 @@ class ArticleCreateView(CreateView):
 
 class ArticleDetailView(DetailView, FormMixin):
     model = Article
-    from_class = CommentCreationForm
+    form_class = CommentCreationForm
     context_object_name = 'target_article'
     template_name = 'articleapp/detail.html'
 
