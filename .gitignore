@@ -84,3 +84,6 @@ __pycache__/
 media/
 
 staticfiles/
+
+
+gis_web.pem
