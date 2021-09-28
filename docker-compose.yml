@@ -35,11 +35,10 @@ services:
       - MARIADB_USER
       - MARIADB_PASSWORD
     environment:
-      MARIADB_ROOT_PASSWORD: password
-      MARIADB_DATABASE: django
-      MARIADB_USER: django
-      MARIADB_PASSWORD: pass
-
+      MARIADB_DATABASE_FILE:
+      MARIADB_USER_FILE: /run/secrets/MARIADB_USER
+      MARIADB_PASSWORD_FILE: /run/secrets/MARIADB_PASSWORD
+      MARIADB_ROOT_PASSWORD: /run/secrets/MARIADB_ROOT_PASSWORD
 
 networks:
   dabin_network:
